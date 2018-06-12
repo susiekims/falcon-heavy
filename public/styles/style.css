@@ -1,0 +1,16 @@
+h1 {
+  font: 100% Helvetica, sans-serif;
+  color: #ffb300;
+  font-size: 60px; }
+
+h2 {
+  font: 100% Helvetica, sans-serif;
+  color: #ffb300;
+  font-size: 30px; }
+
+body {
+  padding: 100px;
+  letter-spacing: 0.03em; }
+
+p {
+  font-size: 30px; }
