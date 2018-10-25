@@ -16,10 +16,15 @@ nav {
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav__link {
     text-transform: uppercase;
     letter-spacing: .1rem;
     font-size: 1.2rem;
+}
+
+.nav__item--logo {
+    width: 200px;
 }
