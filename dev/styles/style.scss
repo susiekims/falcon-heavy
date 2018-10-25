@@ -1,23 +1,4 @@
-$font-stack: Helvetica, sans-serif;
-$primary-color: #ffb300;
-
-h1 {
-	font: 100% $font-stack;
-	color: $primary-color;
-	font-size: 60px;
-}
-
-h2 {
-	font: 100% $font-stack;
-	color: $primary-color;
-	font-size: 30px;
-}
-
-body {
-	padding: 100px;
-	letter-spacing: 0.03em;
-}
-
-p {
-	font-size: 30px;
-}
+@import "partials/setup";
+@import "partials/typography";
+@import "partials/layout";
+@import "partials/landing";
