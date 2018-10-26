@@ -1,5 +1,6 @@
 const button = document.querySelector('#nav-icon3');
 const scroll = document.getElementsByClassName('scroll');
+const rocket = document.getElementById('rockets')
 
 const toggleDropdown = () => {
     button.onclick = function() {
@@ -26,5 +27,6 @@ window.onscroll = function() {
         }
     }
 }
+
 
 toggleDropdown();
