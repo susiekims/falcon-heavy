@@ -1,4 +1,9 @@
 @media (max-width: 800px){
+
+    .circles {
+        width: 100%;
+    }
+
     .engineering .flex {
         flex-direction: column;
     }
@@ -25,6 +30,15 @@
 }
 
 @media (max-width: 700px) {
+
+    .circles {
+        width: 100%;
+    }
+
+    .circle {
+        position: relative;
+        flex: 0 0 30%;
+    }
 
     .wrapper {
         width: 90%;
@@ -76,4 +90,18 @@
 		z-index: 6;
 	}
 
+}
+
+
+@media (max-width: 600px) {
+
+    .circles {
+        flex-direction: column;
+        align-content: center;
+        width: 50%;
+    }
+
+    .circle {
+        margin: 20px 0;
+    }
 }
