@@ -9,8 +9,9 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
--webkit-text-stroke: 0.2px;
+    -webkit-text-stroke: 0.2px;
 }
+
 
 li {
     list-style: none;
@@ -53,4 +54,41 @@ button {
     width: 150px;
     padding: 10px 0px;
     display: block;
+
+    &:hover {
+        background: white;
+        color: black;
+    }
 }
+
+.nav__link:hover, .footer__link:hover {
+    font-weight: 600;
+}
+
+.footer__subheading {
+    padding-bottom: 5px;
+}
+
+.footer__item {
+    padding: 2.5px 0;
+}
+
+.footer__link {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+}
+
+.footer__copyright {
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: .1rem;
+    opacity: .5;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.scroll {
+    transition: transform .5s ease-in-out, opacity .5s ease-in-out; 
+}
+  

@@ -12,7 +12,7 @@
     transform: translateY(-50%);
 }
 
-nav {
+nav ul {
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -26,5 +26,5 @@ nav {
 }
 
 .nav__item--logo {
-    width: 200px;
+    width: 150px;
 }

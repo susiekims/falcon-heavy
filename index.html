@@ -5,28 +5,41 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="public/styles/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	<title>Falcon Heavy</title>
 </head>
 <body>
 	<section class="landing">
 		<div class="wrapper">
-		<header>
+			<video autoplay muted loop id="video">
+				<source src="public/assets/video.mp4" type="video/mp4">
+			</video>
+		<!-- <header> -->
 			<nav>
-				<li class="nav__item"><a href="#" class="nav__link">lorem</a></li>
-				<li class="nav__item"><a href="#" class="nav__link">ipsum</a></li>
-				<li class="nav__item"><a href="#" class="nav__link">dolor</a></li>
-				<li class="nav__item--logo">
-					<a href="#" class="nav__link">
-						<img src="public/assets/logo.png" alt="SpaceX">
-					</a>
-				</li>
-				<li class="nav__item"><a href="#" class="nav__link">sit</a></li>
-				<li class="nav__item"><a href="#" class="nav__link">amet</a></li>
-				<li class="nav__item"><a href="#" class="nav__link">buy now</a></li>
+				<div id="nav-icon3">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<img src="public/assets/logo.png" class="logo--mobile" alt="SpaceX">
+				<ul>
+					<li class="nav__item"><a href="#" class="nav__link">lorem</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">ipsum</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">dolor</a></li>
+					<li class="nav__item--logo">
+						<a href="#" class="nav__link">
+							<img src="public/assets/logo.png" alt="SpaceX">
+						</a>
+					</li>
+					<li class="nav__item"><a href="#" class="nav__link">sit</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">amet</a></li>
+					<li class="nav__item"><a href="#" class="nav__link">buy now</a></li>
+				</ul>
 			</nav>
-		</header>
+		<!-- </header> -->
 			<div class="content content--left">
-				<h1>Falcon Heavy</h1>
+				<h4>Falcon Heavy</h4>
 				<h2>The world's most <br>powerful rocket.</h2>
 				<h3>Nothing even comes close.</h3>
 				<button>watch the video</button>
@@ -35,10 +48,10 @@
 	</section>
 	<main>
 		<section class="wrapper">
-			<div class="content content--center">
+			<div class="content content--center scroll">
 				<h2>Record-breaking payload capabilities: the Falcon Heavy can transport bigger and heavier payloads, allowing for up to 64 metric tons and 144 cubic meters worth of whatever you damn want.</h2>
 			</div>
-			<div class="circles">
+			<div class="circles scroll">
 				<figure class="circle circle--1">
 					<div class="circle__thin"></div>
 					<div class="circle__thick--1"></div>
@@ -65,11 +78,11 @@
 				</figure>
 			</div>
 		</section>
+		<div class="engineering__background">
+		</div>
 		<section class="engineering">
-			<div class="engineering__background">
-			</div>
 			<div class="wrapper flex">
-				<div class="flex__item content content--left">
+				<div class="flex__item content content--left scroll">
 					<h2 class="content__title">An engineering<br>masterpiece.</h2>
 					<div class="content__text">
 						<p class="content__text__p">
@@ -82,10 +95,10 @@
 							Possim deleniti intellege et vel, pri te impedit evertitur. Mea iriure intellegebat at, duo ex melius. 
 						</p>
 					</div>
-					<button>Learn more</button>
-					<button>See pricing</button>
+					<button class="button__float">Learn more</button>
+					<button class="button__float">See pricing</button>
 				</div>
-				<div class="flex__item content content--left">
+				<div class="flex__item content content--left scroll">
 					<h2 class="content__title">Three times more tanks,<br>three times more power.</h2>
 					<div class="content__text">
 						<p class="content__text__p">
@@ -96,37 +109,54 @@
 				</div>
 			</div>
 		</section>
-		<section class="wrapper delivery">
-			<div class="content content--center">
-				<h4>Made to order</h4>
-				<h2>Nothing is faster than our delivery, except maybe our rockets. Our unique  process will deliver your own Falcon Heavy to your doorstep overnight.<span>*</span></h2>
-				<h5>*Must select Express Shipping at checkout.</h5>
-				<button>BUY NOW</button>
+		<section class="delivery">
+			<div class="wrapper">
+				<div class="content content--center scroll">
+					<h4>Made to order</h4>
+					<h2>Nothing is faster than our delivery, except maybe our rockets. Our unique  process will deliver your own Falcon Heavy to your doorstep overnight.<span>*</span></h2>
+					<h5>*Must select Express Shipping at checkout.</h5>
+					<button>BUY NOW</button>
+				</div>
 			</div>
 		</section>
 		<section class="customize">
 			<div class="wrapper">
-				<div class="content content--left">
+				<div class="content content--left scroll">
 					<h2 class="content__title">Fully customizable.</h2>
+					<div class="palette">
+						<div class="palette__swatch palette__swatch--1"></div>
+						<div class="palette__swatch palette__swatch--2"></div>
+						<div class="palette__swatch palette__swatch--3"></div>
+						<div class="palette__swatch palette__swatch--4"></div>
+						<div class="palette__swatch palette__swatch--5"></div>
+						<div class="palette__swatch palette__swatch--6"></div>
+						<div class="palette__swatch palette__swatch--7"></div>
+						<div class="palette__swatch palette__swatch--8"></div>
+						<div class="palette__swatch palette__swatch--9"></div>
+						<div class="palette__swatch palette__swatch--10"></div>
+					</div>
 					<div class="content__text">
 						<p class="content__text__p">Choose from a range of ten custom colors. Lorem ipsum dolor sit amet, et facilis tractatos intellegebat vel, at sale postea ocurreret vel. Possim deleniti intellege et vel, pri te impedit evertitur. Mea iriure intellegebat at, duo ex melius verear. </p>
 					</div>
 					<button>Customize</button>
 				</div>
+				<img class="rockets" src="public/assets/rockets1.png" alt="Customize all three tanks to whatever color you desire.">
 			</div>
 		</section>
-		<section class="wrapper subscribe">
-			<div class="content content--left">
-				<h2 class="content__title">We're always<br>moving up.</h2>
-				<div class="content__text">
-					<p class="contet__text__p">Sign up for the latest news, updates, and more.</p>
-					<input type="email" placeholder="Enter your email">
-					<button>Subscribe</button>
+		<section class="subscribe">
+			<div class="wrapper">
+				<div class="content content--left scroll">
+					<h2 class="content__title">We're always<br>moving up.</h2>
+					<div class="content__text">
+						<p class="contet__text__p">Sign up for the latest news, updates, and more.</p>
+						<input class="email" type="email" placeholder="Enter your email">
+						<button>Subscribe</button>
+					</div>
 				</div>
 			</div>
 		</section>
 		<section class="wrapper buy-now">
-			<div class="content content--center">
+			<div class="content content--center scroll">
 				<h2 class="content__title">All this can be yours for only $19.99</h2>
 				<h5>*Must enter promocode HIRESUSIE at checkout.</h5>
 				<button>Buy now</button>
@@ -134,9 +164,20 @@
 		</section>
 	</main>
 	<footer>
+		<ul class="social-icons__list">
+				<li>
+					<a href="https://facebook.com"><i class="fab fa-facebook social-icons__icon"></i></a>
+				</li>
+				<li>
+					<a href="https://instagram.com"><i class="fab fa-instagram social-icons__icon"></i></a>  
+				</li>
+				<li>
+					<a href="https://pinterest.com"><i class="fab fa-pinterest-p social-icons__icon"></i></a>
+				</li>
+		</ul>
 		<div class="wrapper footer__flex">
 			<div class="footer__flex__item1">
-				<img src="public/assets/logo.png" alt="SpaceX">
+				<img src="public/assets/logo.png" class="footer__logo" alt="SpaceX">
 				<p>Lorem ipsum dolor sit amet, et facilis tractatos intellegebat vel, at sale postea ocurreret vel.</p>
 			</div>
 			<div class="footer__flex__item2">
@@ -186,12 +227,13 @@
 						<a href="#" class="footer__link">Contact</a>
 					</li>
 					<li class="footer__item">
-						<a href="#" class="footer__link">Inovation Hub</a>
+						<a href="#" class="footer__link">Innovation Hub</a>
 					</li>
 				</ul>
 			</div>
 		</div>
-		<h5>© 2018 SUSIE KIM FOR SPACE X. ALL RIGHTS RESERVED.</h5>
+		<h5 class="footer__copyright">© 2018 SUSIE KIM FOR SPACEX. ALL RIGHTS RESERVED.</h5>
 	</footer>
+	<script src="public/scripts/app.js"></script>
 </body>
 </html>
